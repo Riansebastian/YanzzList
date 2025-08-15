@@ -1,0 +1,124 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #d9d9d9 50%, #0f05a5 50%);
+  color: #0f05a5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #0f05a5;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  border: 2px solid #0f05a5;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+button {
+  background-color: #0f05a5;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2e25ce;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #0f05a5;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.badge.rendah {
+  background-color: #00c853;
+}
+
+.badge.sedang {
+  background-color: #ff9800;
+}
+
+.badge.tinggi {
+  background-color: #f44336;
+}
+
+.status-selesai {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-edit {
+  background-color: #2196f3;
+}
+
+.btn-hapus {
+  background-color: #f44336;
+}
+
+.btn-semat {
+  background-color: #ffca28;
+  color: #333;
+}
+
+.btn-edit,
+.btn-hapus,
+.btn-semat {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 13px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btn-hapus:hover {
+  background-color: #e53935;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+}
